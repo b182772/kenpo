@@ -1,0 +1,129 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        h1 { text-align: center; }
+        h2 {
+            color: white;
+            background-color: blue;
+        }
+        #history {
+            border: 1px solid blue; 
+            width:600px;
+        }
+        span.year {
+            color: red;
+        }
+        span.name {
+            color: blue;
+        }
+        tr:nth-child(2n) {
+            background-color: lightblue;
+        }
+    </style>
+    <script>
+        window.onload = init;
+        function init() {
+            var years = document.querySelectorAll("span.year");
+            for(var i = 0 ; i < years.length ; i++){
+                var y = years[i];
+                y.answer = y.textContent;
+                y.textContent = "____";
+                y.onclick = function (e) {
+                    e.target.textContent = e.target.answer;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    
+
+    <p>
+        
+        「教育と社会·制度」
+        100間チャレンジ
+        日本国憲法
+        第【<span class="year">26</span>】条すべて【<span class="year">国民</span>】 は,法律の定めるところにより,その【<span class="year">能力</span>】に応じて, 【<span class="year">ひとしく</span>】教育を受ける権利を有する。</br>
+        すべて【<span class="year">国民</span>】は,法律の定めるところにより,その保護する 【<span class="year">子女</span>】に【<span class="year">普通教育</span>】を受けさせる【<span class="year">義務</span>】を負ふ。 【<span class="year">義務教育</span>】は, これを【<span class="year">無償</span>】とする。</br>
+    </br>
+        教育基本法</br>
+        (教育の目的)</br>
+        第1条、教育は,【<span class="year">人格</span>】 の完成を目指し, 【<span class="year">平和</span>】で【<span class="year">民主的</span>】な【<span class="year">国家</span>】及び 【<span class="year">社会</span>】の【<span class="year">形成者</span>】として必要な資質を備えた 【<span class="year">心身</span>】 ともに健康な国民の育成を期して行われなければならない。</br>
+    </br>
+        
+        (教育の目標)</br>
+        第2条</br>
+        教育は, その目的を実現するため, 【<span class="year">学問</span>】の自由を尊重しつつ,次に掲げる目標を達成するよう行われるものとする。</br>
+        一　幅広い知識と教養を身に付け, 【<span class="year">真理</span>】を求める態度を養い,豊かな【<span class="year">情操</span>】 と 【<span class="year">道徳心</span>】 を培うとともに,健やかな 【<span class="year">身体</span>】 を養うこと。</br>
+        二　個人の【<span class="year">価値</span>】を尊重して, その能力を伸ばし、 【<span class="year">創造性</span>】を培い, 【<span class="year">自主</span>】及び自律の精神を養うとともに, 【<span class="year">職業</span>】及び生活とのとの関連を重視し,【<span class="year">勤労</span>】を重んずる態度を養うこと。</br>
+        三　【<span class="year">正義</span>】と責任,男女の【<span class="year">平等</span>】,自他の【<span class="year">敬愛</span>】と協力を重んずるとともに, 【<span class="year">公共</span>】の精神に基づき,主体的に社会の形成に【<span class="year">参画</span>】 し, その発展に寄与する態度を養うこと。</br>
+        四　【<span class="year">生命</span>】を尊び,自然を大切にし, 【<span class="year">環境</span>】の保全に寄与する態度を養うこと。</br>
+        五　【<span class="year">伝統</span>】と文化を尊重し, それらをはぐくんできた我が国と【<span class="year">郷土</span>】を愛するとともに,【<span class="year">他国</span>】を尊重し, 【<span class="year">国際社会</span>】の平和と発展に寄与する態度を養うこにと。</br>
+    </br>
+        (生涯学習の理念)</br>
+        第3条</br>
+        国民一人一人が,【<span class="year">自己</span>】の人格を磨き,豊かな 【<span class="year">人生</span>】を送ることができるよう, その【<span class="year">生涯</span>】にわたって, あらゆる【<span class="year">機会</span>】 に, あらゆる 【<span class="year">場所</span>】において学習することができ,その【<span class="year">成果</span>】 を適切に生かすことのできる社会の実現が図られなければならない。</br>
+        
+        (教育の機会均等)</br>
+        第4条 すべて【<span class="year">国民</span>】は, 【<span class="year">ひとしく</span>】,その【<span class="year">能力</span>】に応じた教育を受ける 【<span class="year">機会</span>】を与えられなければならず, 【<span class="year">人権</span>】, 【<span class="year">信条</span>】, 【<span class="year">性別</span>】,社会的身分,【<span class="year">経済的地位</span>】 又は【<span class="year">門地</span>】によって,教育上【<span class="year">差別</span>】されない。</br>
+        2国及び地方公共団体は, 【<span class="year">障害のある者</span>】が, その障害の状態に応じ, 十分な教育を受けられるよう,教育上必要な支援を講じなければならない。</br>
+        3国及び地方公共団体は, 【<span class="year">能力</span>】 があるにもかかわらず, 【<span class="year">経済的理由</span>】によって【<span class="year">修学</span>】が困難な者に対して, 【<span class="year">奨学</span>】の措置を講じなければならない。</br>
+        
+        (義務教育)</br>
+        第5条</br>
+        国民は,その保護する 【<span class="year">子</span>】に,別に法律で定めるところにより, 【<span class="year">普通教育</span>】を受けさせる義務を負う。</br>
+        2義務教育として行われる 【<span class="year">普通教育</span>】は, 各個人の有する 【<span class="year">能力</span>】を伸ばしつつ【<span class="year">社会</span>】において自立的に生きる 【<span class="year">基礎</span>】を培い,また, 【<span class="year">国家</span>】及び 【<span class="year">社会</span>】 の【<span class="year">形成者</span>】として必要とされる基本的な【<span class="year">資質</span>】を養うことを目的として行われるものとする。</br>
+        3国及び地方公共団体は, 義務教育の機会を保障し, その【<span class="year">水準</span>】を確保するため,適切な【<span class="year">役割分担</span>】及び相互の【<span class="year">協力</span>】の下,その実施に【<span class="year">責任</span>】を負う。</br>
+        4国又は【<span class="year">地方公共団体</span>】の設置する学校における義務教育については, 【<span class="year">授業料</span>】を【<span class="year">徴収</span>】 しない。</br>
+        
+        
+        (社会教育)</br>
+        第12条 個人の【<span class="year">要望</span>】や社会の【<span class="year">要請</span>】にこたえ,社会において行われる教育は,国及び地方公共団体によって【<span class="year">奨励</span>】されなければならない。</br>
+        国及び地方公共団体は, 【<span class="year">図書館</span>】, 【<span class="year">博物館</span>】, 【<span class="year">公民館</span>】その他の【<span class="year">社会教育施設</span>】 の設置,学校の【<span class="year">施設</span>】 の利用,学習の機会及び情報の提供その他適当な方法によって【<span class="year">社会教育</span>】の【<span class="year">振興</span>】に努めなければならない。</br>
+        
+        (政治教育)</br>
+        第14条 良識ある【<span class="year">公民</span>】 として必要な【<span class="year">政治的教養</span>】は,教育上尊重されなければならない。</br>
+        2 【<span class="year">法律</span>】に定める学校は, 特定の攻党を【<span class="year">支持</span>】し,又はこれに【<span class="year">反対</span>】するための【<span class="year">政治教育</span>】 その他政治的活動をしてはならない。</br>
+        
+        (宗教教育)</br>
+        第15条 宗教に関する【<span class="year">寛容</span>】の態度,宗教に関する一般的な【<span class="year">教養</span>】及び宗教の社会生活における【<span class="year">地位</span>】は,教育上尊重されなければならない。</br>
+        国及び地方公共団体が設置する学校は,特定の宗数のための【<span class="year">宗教教育</span>】その他【<span class="year">宗教的活動</span>】をしてはならない。</br>
+        
+        
+        (教育行政)</br>
+        第16条 教育は,不当な【<span class="year">支配</span>】に服することなく,この法律及び他の法律の定めるところにより行われるべきものであり, 教育行政は, 国と地方公共団体との適切な【<span class="year">役割分担</span>】及び【<span class="year">協力</span>】の下。【<span class="year">公正</span>】かつ適正に行われなければならない。</br>
+        2国は,全国的な教育の【<span class="year">機会均等</span>】と【<span class="year">教育水準</span>】の維持向上を図るため,教育に関する施策を総合的に策定し,実施しなければならない。</br>
+        3 地方公共団体は, その地域における教育の振興を図るため, その実情に応じた教育に関する施策を策定し, 実施しなければならない。</br>
+        4 国及び地方公共団体は, 教育が円滑かつ継続的に実施されるよう,必要な財政上の【<span class="year">措置</span>】を講じなければならない。</br>
+        (教育振興基本計画)</br>
+        第17条</br>
+        【<span class="year">政府</span>】は, 教育の振興に関する施策の総合的かつ計画的な推進を図るため,教育の振興に関する施策についての基本的な方針及び講ずべき施策その他必要な事項について, 基本的な計画を定め,これを国会に報告するとともに,公表しなければならない。</br>
+        2 地方公共団体は,前項の計画を参酌し, その地域の実情に応じ,当該地方公共団体における教育の振興のための施策に関する基本的な計画を定めるよう努めなければならない。</br>
+        
+        学校教育法</br>
+        第6条 学校においては,授業料を徴収することができる。ただし,国立又は公立の小学校及び中学校,【<span class="year">義務教育学校</span>】,中等教育学校の前期課程又は特別支援学校の小学部及び中学部における義務教育については,これを徴収することができない。</br>
+        
+        第16条【<span class="year">保護者</span>】 (子に対して【<span class="year">親権</span>】を行う者 (【<span class="year">保護者</span>】を行う者のないときは, 未成年後見人)をいう。以下同じ。 )は,次条に定めるところにより,子に九年の【<span class="year">普通教育</span>】を受けさせる義務を負う。</br>
+        第17条</br>
+        【<span class="year">保護者</span>】は,子の【<span class="year">満六歳</span>】に達した日の翌日以後における最初の学年の初めから, 【<span class="year">満十二歳</span>】に達した日の属する学年の終わりまで, これを小学校, 【<span class="year">義務教育</span>】の前期課程又は特別支援学校の小学部に就学させる義務を負う。 ただし, 子が, 【<span class="year">満十二歳</span>】に達した日の属する学年の終わりまでに小学校の課程, 【<span class="year">義務教育学校</span>】の前期課程又は特別支援学校の小学部の課程を修了しないときは,【<span class="year">満十五歳</span>】に達した日の属する学年の終わり (それまでの間において当該課程を修了したときは,その修了した日の属する学年の終わり) までとする。</br>
+        2【<span class="year">保護者</span>】は, 子が小学校の課程, 【<span class="year">義務教育学校</span>】 の前期課程又は特別支援学校の小学部の課程を修了した日の翌日以後における最初の学年の初めから, 【<span class="year">満十五歳</span>】に達した日の属する学年の終わりまで,これを中学校, 【<span class="year">義務教育学校</span>】の後期課程, 中等教育学校の前期課程又は特別支援学校の中学部に就学させる義務を負う。</br>
+        3全二項の義務の履行の督促その他これらの義務の履行に関し必要な事項は,政令で定める。</br>
+    </br>
+        第19条 【<span class="year">経済的理由</span>】によって, 就学困難と認められる【<span class="year">学齢児童</span>】 又は 【<span class="year">学齢生徒</span>】の【<span class="year">保護者</span>】に対しては, 【<span class="year">市町村</span>】は,必要な援助を与えなければならない。</br>
+    </br>
+        
+        第20条 【<span class="year">学齢児童</span>】又は【<span class="year">学齢生徒</span>】 を使用する者は, その使用によって,当該 【<span class="year">学齢児童</span>】又は【<span class="year">学齢生徒</span>】 が,義務教育を受けることを妨げてはならない。</br>
+    </br>
+        民法</br>
+        第820条【<span class="year">親権</span>】を行う者は,子の利益のために子の【<span class="year">監護</span>】 及び教育をする権利を有し,·義務を負う。
+
+
+
+
+
+
+
+    </p>
+</body>
+</html>
